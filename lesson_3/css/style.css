@@ -1,0 +1,28 @@
+@import url("reset.css");
+#title10{
+	color: coral;
+}
+.main__title{
+	color: green;
+}
+.text > p {
+	color: yellow;
+}
+div.text{
+	color: blueviolet;
+}
+.titel{
+	color: blue;
+}
+mark {
+	color: red;
+}
+ul {
+	color: gray;
+}
+.text ~ p {
+	color: forestgreen; 
+}
+.some__text .some__text1{
+	color: cornflowerblue;
+}
