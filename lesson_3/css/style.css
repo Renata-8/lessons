@@ -23,6 +23,13 @@ ul {
 .text ~ p {
 	color: forestgreen; 
 }
-.some__text .some__text1{
+.some__text .some__text3{
 	color: cornflowerblue;
+}
+.some__text1,
+.some__text2{
+	color: lightseagreen;
+}
+.some__text1.some__text4{
+	color: saddlebrown;
 }
