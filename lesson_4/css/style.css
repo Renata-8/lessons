@@ -1,0 +1,59 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body{
+	font-family: "PT Serif", "Time New Romanrif", serif;
+	font-size: 18px;
+}
+h1{
+	font-family: "TroubleSide";
+	font-size: 42px;
+	font-weight: 700;
+	font-style: italic;
+	color: rgb(123, 10, 10);
+	text-align: center;
+	text-shadow: 10px 10px 20px rgba(231, 17, 17, 0.656);
+}
+h2{
+	font-family: "Caveat";
+	font-size: 32px;
+	font-weight: 700;
+	font-style: oblique;
+	text-align: left;
+	text-decoration: underline;
+}
+.paragraph{
+	font-family: "Monomakh Unicode";
+	font-weight: 700;
+	letter-spacing: 3px;
+	
+}
+.content{
+	font-family: "GaramondLibre";
+	font-size: 24px;
+	font-style: italic;
+	text-align: right;
+	line-height: 2;
+	
+}
+p{
+	text-align: justify;
+	font-style: italic;
+	line-height: 1.2;
+	text-indent: 30px;
+}
+.bottom+p{
+	font-family: "Retrogression";
+	font-size: 24px;
+	text-decoration: line-through;
+}
+.top {
+	font-family: "Arimo";
+	text-decoration: overline;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 10px rgba(231, 17, 17, 0.656);
+
+}
+.chapter .last__paragraph{
+	font-family: "Anonymous Pro";
+}
