@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url("reset.css");
+
+body{
+font-family: 'Poppins', sans-serif;
+}
+
+.articl{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.content{
+	max-width: 816px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+h2{
+	margin: 0 0 40px;
+	font-weight: 700;
+	font-size: 25px;
+	color: #212529;
+	line-height: 40px;
+}
+
+.content p{
+	margin: 0 0 40px;
+	font-weight: 300;
+	font-size: 14px;
+	color: #6C757D;
+	line-height: 25px;
+}
+
+.part__1{
+	max-width: 400px;
+}
+.part__2{
+	max-width: 605px;
+}
+
+img{
+	max-width: 100%;
+	
+}
+.photo{
+	font-size: 0;
+	margin-bottom: 80px;
+}
+
+.photo_1{
+	max-width: 50%;
+	padding: 0 15px 0 0;
+
+}
+.photo_2{
+	max-width: 50%;
+	padding: 0 0 0 15px;
+}
+
+.link{
+	text-align: center;
+	}
+
+.link a{
+	border-bottom: 3px dashed ;
+}
+
+[class*="__block"]{
+	font-size: 20px;
+}
+.one__block{
+	border-top: 10px dotted #6C757D;
+	border-right: 15px dotted #6C757D;
+	border-bottom: 20px dotted #6C757D;
+	border-left: 15px dotted #6C757D;
+}
+
+.two__block{
+	color: #0f7cdc;
+	border-top: 10px dashed;
+	border-right: 15px dashed;
+	border-bottom: 20px dashed;
+	border-left: 15px dashed;
+	border-radius: 20px;
+}
+
+.three__block{
+	margin: 10px;
+	outline: 10px dotted #6C757D; ;
+}
+
+.four__block,
+.five__block{
+	width: 600px;
+	height: 200px;
+	background-color: #6C757D;
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+
+.four__block{
+	padding: 50px;
+	box-shadow: 30px 20px 20px 1px #166db3, 40px 30px 60px 2px #030404;
+	opacity: 0.7;
+}
+.five__block{
+	box-shadow: inset 30px 20px 20px 1px #166db3, inset 40px 30px 60px 2px #030404;
+}
+.footer__block{
+	padding-bottom: 40px;
+}
