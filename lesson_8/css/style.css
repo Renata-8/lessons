@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url("reset.css");
+
+body{
+	font-family: 'Intder', sans-serif;
+}
+.block{
+	font-family: 'Poppins', sans-serif;
+	max-width: 100%;
+	min-height: 600px;
+	background: url('../img/fon.png') 50% / cover no-repeat;
+	border-radius: 0px 5px 5px 0px;
+	padding: 354px 100px 100px;
+	margin-bottom: 50px;
+}
+.block__container--titel{
+	max-width: 605px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	color: #F8F9FA;
+	margin-bottom: 32px;
+}
+.block__container--date,
+.block__container--text{
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 20px;
+	color: #E5E5E5;
+	margin-bottom: 30px;
+}
+.list{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+h2{
+	font-size: 26px;
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+[class*="list__menu"] {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 15px;
+	color: #637381;
+	margin-bottom: 48px;
+}
+[class*='list__menu'] li{
+	margin-left: 30px;
+	margin-bottom: 17px;
+	min-height: 20px;
+	
+}
+[class*='list__menu'] li::before{
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	padding-left: 30px;
+	margin-bottom: -5px;
+
+}
+.list__menu--list1 li::before{
+	background: url('../img/dot.svg')0 5px / 8px 8px no-repeat;
+	padding-left: 20px;
+}
+.list__menu--list2 li::before{
+	background: url('../img/cross-circle.svg') no-repeat;
+	/*vertical-align: middle;*/
+}
+.list__menu--list2 li:hover::before{
+	transform: scale(1.5);
+}
+.list__menu--list3 li::before{
+	
+	
+	background: url('../img/checkmark-circle.svg') no-repeat;
+}
+.list__menu--list3 li:hover{
+color: #000;
+}
+.list__menu--list4 li::before{
+	background: url('../img/arrow-right.svg') no-repeat;
+}
+.list__menu--list4 li:active:after{
+	content: "";
+	background: url('../img/arrow-right.svg') 10px no-repeat;
+	width: 20px;
+	height: 20px;
+	padding-left: 30px;
+}
+.list__menu--list5 li::before{
+	background: url('../img/checkmark-circle2.svg') no-repeat;
+}
+.list__menu--list5 li:first-child{
+	text-shadow: 1px 1px 2px rgb(14, 13, 13);
+}
+.list__menu--list6 li::before{
+	background: url('../img/star.svg') no-repeat;
+}
+.bottom{
+	max-width: 100%;
+	max-height: 560px;
+	background: url('../img/Group.png')right no-repeat, #F4F7FF;
+}
+.bottom__contaier{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 80px 15px ;
+}
+.text__container{
+	display: inline-block;
+	max-width: 570px;
+	margin-right: 180px;
+}
+.subtitle{
+	font-family: 'Inter';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	color: #3056D3;
+	margin-bottom: 13px;
+}
+h3{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 45px;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+.text__container p{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #637381;
+	margin-bottom: 40px;
+}
+a{
+	display: inline-block;
+	background: #3056D3;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: 600;
+	line-height: 24px;
+	padding: 10px 30px;
+	margin-bottom: 15px;
+}
+a:active{
+	background: #fff;
+	color: #3056D3;
+}
+a:hover{
+	box-shadow: 10px 10px 5px #77a8db;
+}
