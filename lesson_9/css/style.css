@@ -47,21 +47,6 @@ p{
 	background-color: #3056D3;
 	padding: 17px;
 }
-.email,
-.phone2{ 
-	width: 130px;
-	height: 130px;
-	border-radius: 50%;
-	background-color: #F7F8FA;
-	padding: 46px;
-}
-.address{
-	width: 130px;
-	height: 130px;
-	border-radius: 50%;
-	background-color: #F7F8FA;
-	padding: 46px;
-}
 .content__images img{
 	border-radius: 15px;
 }
