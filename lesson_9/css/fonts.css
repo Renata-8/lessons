@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@300;400;700&display=swap');
+
+
+@font-face {
+	font-family: 'Mariupol';
+	src: url('Mariupol-Medium.woff2') format('woff2'),
+	url('Mariupol-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mariupol';
+	src: url('Mariupol-Bold.woff2') format('woff2'),
+	url('Mariupol-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mariupol';
+	src: url('Mariupol-Regular.woff2') format('woff2'),
+	url('Mariupol-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mariupol Symbols';
+	src: url('MariupolSymbols.woff2') format('woff2'),
+	url('MariupolSymbols.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
