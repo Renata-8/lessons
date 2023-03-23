@@ -333,7 +333,7 @@ border-radius: 0px 2px 2px 0px;
 .car__wheel1{
 	position: absolute;
 	bottom: 0;
-	left: 32px;
+	left: 42px;
 
 }
 .car__wheel2{
@@ -355,7 +355,7 @@ border-radius: 0px 2px 2px 0px;
 .car__wheel1-disk{
 	position: absolute;
 	bottom: 10px;
-	left: 42px;
+	left: 52px;
 }
 .car__wheel2-disk{
 	position: absolute;
@@ -372,7 +372,7 @@ border-radius: 0px 2px 2px 0px;
 .car__wheel1-disk-awn{
 	position: absolute;
 	bottom: 15px;
-	left: 47px
+	left: 57px
 }
 
 .car__wheel2-disk-awn{
