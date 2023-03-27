@@ -1,0 +1,199 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic&display=swap');
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: rgb(169, 169, 169);
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+.main__titel{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+[class*='content__block']{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	height: 200px;
+	vertical-align: top;
+	background-color: aquamarine;
+	margin: 15px;
+
+}
+.block-titel {
+	text-align: center;
+	background-color: rgb(169, 169, 169);
+}
+.content__wrapper {
+	width: 200px;
+	height: 180px;
+	text-align: center;
+	padding-top: 80px;
+	background-color: rgba(1, 16, 5, 0.606);
+}
+
+.content__visibility{
+	opacity: 1;
+}
+.content__wrapper--duration:hover{
+
+	height: 400px;
+	background-color: aquamarine;
+	transition-duration: 2s;
+}
+.content__wrapper--visibility:hover{
+	visibility: hidden;
+	opacity: 0;
+	transition-duration: 5s;
+}
+.content__wrapper--property:hover{
+	height: 300px;
+	background-color: rgb(147, 162, 162);
+	transform: rotate(30deg);
+	transition-duration: 5s;
+	transition-property: height, transform;
+
+}
+.content__wrapper--dalay:hover{
+	transform: translate(20px, 30px);
+	transition-delay: 1s;
+}
+
+.content__wrapper--timing-function:hover{
+	height: 400px;
+	background-color: aquamarine;
+	transition-duration: 2s;
+	transition-timing-function: cubic-bezier(0,1.24,1,-0.09);
+	margin-right: 400px;
+}
+.content__wrapper--transition:hover{
+	height: 400px;
+	transform: rotate(30deg);
+	transition: all 3s cubic-bezier(0,1.24,1,-0.09) 1s;
+}
+.content__wrapper--transition2{
+	transition:  height 1s ease-in  3s,width 2s 0.8s;
+}
+.content__wrapper--transition2:hover{
+	width: 400px;
+	height: 400px;
+	transition: width 3s 0.8s, height 1s ease-in  3s;
+}
+.img__content{
+	position: relative;
+	max-width: 393px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.img__content img{
+	transition: 3s;
+	max-width: 100%;
+	
+}
+.img__content::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	background-color: #000;
+	opacity: 0.4;
+	transition: opacity, 8s;
+}
+.img__content:hover::before{
+	opacity: 0;
+	transform: scale(0.02);/*
+	transition-property: opacity, transform;
+	transition-duration: 2s;*/
+	transition: all 3s;
+}
+.img__content img:hover{
+	transform: scale(1.2);
+	
+}
+
+.img__titel{
+	text-align: center;
+
+}
+.header__button{
+	display: block;
+	
+margin: 20px;
+}
+.button{
+	display: block;
+	background-color:#415a77;
+	border: 2px solid #0d1b2a;
+	box-shadow: inset -5px -5px 2px 1px #0d1b2a;
+	max-width: 300px;
+	max-height: 100px;
+	text-align: center;
+	padding: 20px;
+	margin-left: auto
+}
+
+/*----анімація------*/
+.content__wrapper--animation-rotate{
+	animation-name: rotate;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: 3;/* кількість повторів*/
+	/*animation-iteration-count: infinite;*/
+	animation-delay: 8s;
+
+}
+.content__wrapper--animation-translate{
+	animation-name: translate;
+	animation-iteration-count: 4;
+	animation-timing-function: linear;
+	animation-duration: 2s;/*
+	animation-direction: alternate;*/
+	animation-fill-mode: forwards;
+}
+.content__wrapper--animation-translate:hover{
+	animation-play-state: paused;
+}
+
+
+ /*Сценарій анімації */
+@keyframes rotate{
+	0%{
+transform: rotate(0deg);
+	}
+	30%{
+		transform: rotate(-180deg);
+		background-color: #415a77;
+	}
+	
+	100%{
+		transform: rotate(180deg);
+	
+		
+	}
+} 
+
+@keyframes translate{
+	0%{
+	transform: translate(0px,0px);
+	}
+		100%{
+		background-color: #415a77;
+		transform: translate(400px,0px);
+		border-radius: 50%;
+	}
+}
+/*
