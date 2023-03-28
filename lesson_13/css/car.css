@@ -223,7 +223,6 @@ border-radius: 0px 2px 2px 0px;
 }
 .picture-parcels__one{
 	animation-name:car;
-	position: relative;
 	animation-iteration-count: 1;
 	animation-timing-function: cubic-bezier(0,-0.34,1,.01);
 	animation-duration: 3s;
