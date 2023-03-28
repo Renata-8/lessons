@@ -1,4 +1,5 @@
 .main__picture{
+	position: relative;
 	background: url(../img/nature.webp) no-repeat;
 	max-width: 1370px;
 	min-height: 708px;
@@ -222,22 +223,22 @@ border-radius: 0px 2px 2px 0px;
 	right: 75px;
 }
 .picture-parcels__one{
+	position: absolute;
+	top: 445px;
+	right: 175px;
 	animation-name:car;
 	animation-iteration-count: 1;
 	animation-timing-function: cubic-bezier(0,-0.34,1,.01);
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	position: absolute;
-	top:455px;
-	right: 325px;
+
 	z-index: 3;
 	
 }
 .picture-parcels__two{
 	position: absolute;
-
-	top:465px;
-	right: 290px;
+	top:455px;
+	left: 1200px;
 	animation:car 3s cubic-bezier(0,-0.34,1,.01) 1 normal running 0s forwards, parcel 1s cubic-bezier(0,-0.34,1,.01) 1 normal running 3s forwards;/*
 		animation-iteration-count: 1;
 	animation-timing-function: linear;
@@ -257,7 +258,7 @@ border-radius: 0px 2px 2px 0px;
 	top: 420px;
 	left: 170px;
 }
-.sun__rotate{
+.maim__sun--rotate{
 	position: absolute;
 	top: 100px;
 	left: 1250px;
@@ -269,16 +270,16 @@ border-radius: 0px 2px 2px 0px;
 }
 .car{
 	animation-name:car;
-	position: relative;
+	position: absolute;
 	animation-iteration-count: 1;
 	animation-timing-function: cubic-bezier(0,-0.34,1,.01);
 	animation-duration: 3s;/*
 	animation-direction: alternate;*/
 	animation-fill-mode: forwards;
-	top: 450px;
 	width: 340px;
 	height: 120px;
-	left: 910px;
+	top: 450px;
+	left: 920px;
 	z-index: 1;
 }
 
