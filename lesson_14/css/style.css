@@ -34,6 +34,7 @@ body{
 	line-height: 2.08;
 	color: #495057;
 	align-items: center;
+	margin-bottom: 44px;
 }
 .categories {
 }
@@ -50,25 +51,40 @@ body{
 	flex-wrap: wrap;
 }
 .cards__box{
+	position: relative;
 	/*flex: 0 1 33.333%;*/
 	flex-grow: 0;/*можливість елемента збільшуватись*/
 	flex-shrink: 0;/*можливість зменшуватись у розмірі*/
 	flex-basis: 33.333%; /*розмір*/
 	padding: 0px 15px;
 }
+.cards__creative{
+	position: absolute;
+	top: 30px;
+	right: 45px;
+	font-weight: 700;
+font-size: 8px;
+line-height: 2.5;
+color: #F8F9FA;
+background: rgba(33, 37, 41, 0.3);
+border-radius: 3px;
+padding: 2px 13px;
+z-index: 2;
+
+}
 .item-cards{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 15px;
 	row-gap: 15px;
 	min-height: 100%;
 }
+
 .item-cards__img{
 	overflow: hidden;
 }
 .item-cards__img img{
-	max-width: 100%;/*?*/
+	max-width: 100%;
 	transition: 0.8s;
 }
 
