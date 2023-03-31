@@ -63,14 +63,13 @@ body{
 	top: 30px;
 	right: 45px;
 	font-weight: 700;
-font-size: 8px;
-line-height: 2.5;
-color: #F8F9FA;
-background: rgba(33, 37, 41, 0.3);
-border-radius: 3px;
-padding: 2px 13px;
-z-index: 2;
-
+	font-size: 8px;
+	line-height: 2.5;
+	color: #F8F9FA;
+	background: rgba(33, 37, 41, 0.3);
+	border-radius: 3px;
+	padding: 2px 13px;
+	z-index: 2;
 }
 .item-cards{
 	display: flex;
