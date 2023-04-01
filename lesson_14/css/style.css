@@ -66,10 +66,15 @@ body{
 	font-size: 8px;
 	line-height: 2.5;
 	color: #F8F9FA;
-	background: rgba(33, 37, 41, 0.3);
+	background-color: rgba(33, 37, 41, 0.3);
 	border-radius: 3px;
 	padding: 2px 13px;
+	transition: background-color 0.3s;
 	z-index: 2;
+}
+.cards__creative:active,
+.cards__creative:hover{
+	background-color: rgba(33, 37, 41, 0.682);
 }
 .item-cards{
 	display: flex;
