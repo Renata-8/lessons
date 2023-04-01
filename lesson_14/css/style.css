@@ -151,6 +151,11 @@ body{
 	padding: 8px 50px;
 	background: #212529;
 	border-radius: 3px;
+	transition: 0.3s;
+}
+.button__item:hover{
+	transform: scale(1.03);
+
 }
 
 /*-----flex----*/
@@ -249,7 +254,7 @@ justify-content:space-evenly;
 
 align-items:flex-start;
 }
-.flex__flex-end {
+.flex__flex-end2{
 	height:200px;
 
 align-items:flex-end;
