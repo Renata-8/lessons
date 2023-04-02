@@ -59,6 +59,7 @@ text-decoration: underline;
 .room__articles{
 	display: flex;
 	flex-wrap: wrap;
+	column-gap: 32px;
 	margin-bottom: 81px;
 }
 .colums-project__text {
