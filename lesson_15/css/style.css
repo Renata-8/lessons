@@ -84,7 +84,7 @@ text-decoration: underline;
 .desing-room__title {
 	margin-bottom: 16px;
 }
-.desing-colums__text p:not(:last-child){
+.content-room__colums p:not(:last-child){
 	margin-bottom: 38px;
 }
 .desing-colums__text {
