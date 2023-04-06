@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson №16 Homework</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<h1 class="header__title">
+					Checkout
+				</h1>
+				<div class="header__subtitle">
+					There are 3 products in your cart
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__container checkout">
+				<h2 class="checkout__title">Billing Details</h2>
+				<form class="checkout__form form-checkout" enctype="multipart/form-data" action="https://jsonplaceholder.typicode.com/posts" method="post">
+					<div class="form-checkout__block">
+						<div class="form-checkout__item">
+							<input autocomplete="on" name="firstname" placeholder="First name*" type="text" required>
+						</div>
+						<div class="form-checkout__item">
+							<input autocomplete="on" name="lastname" placeholder="Last name*" type="text" required>
+						</div>
+						<div class="form-checkout__item">
+							<input autocomplete="on" name="address" placeholder="Address*" type="text" required>
+						</div>
+						<div class="form-checkout__item">
+							<input autocomplete="on" name="addressline2" placeholder="Address line 2" type="text">
+						</div>
+						<div class="form-checkout__item">
+							<select autocomplete="off" name="country" required>
+								<option value="" disabled selected>Country*</option>
+								<option value="1">Romania</option>
+								<option value="2">Slovakia</option>
+								<option value="3">Ukraine</option>
+								<option value="4">Canada</option>
+								<option value="5">Canada</option>
+							</select>
+						</div>
+						<div class="form-checkout__item">
+							<input autocomplete="on" name="city" placeholder="City/Town*" type="text" required>
+						</div>
+						<div class="form-checkout__item">
+							<input autocomplete="on" name="postcode" placeholder="Postcode / ZIP*" type="text" maxlength="6" required>
+						</div>
+						<div class="form-checkout__item">
+							<input autocomplete="on" name="postcode" placeholder="Phone*" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+						</div>
+						<div class="form-checkout__item">
+							<input autocomplete="on" name="postcode2" placeholder="Postcode / ZIP*" type="text" maxlength="6" required>
+						</div>
+						<div class="form-checkout__item">
+							<input autocomplete="off" name="postcode2" placeholder="Phone*" type="tel" required>
+						</div>
+						<div class="form-checkout__item form-checkout__item--percent100">
+							<textarea autocomplete="off" name="information" class="form-checkout__area" placeholder="Additional information"></textarea>
+						</div>
+					</div>
+					<div class="form-checkout__box">
+						<div class="form-checkout__line">
+							<input id="create-account" class="form-checkout__input form-checkout__input--chk" name="create_account" type="checkbox">
+							<label class="form-checkout__label" for="create-account">Create Account</label>
+						</div>
+						<div class="form-checkout__line">
+							<input id="different-address" checked class="form-checkout__input form-checkout__input--chk" name="different_address" type="checkbox">
+							<label class="form-checkout__label" for="different-address">Ship to a different address?</label>
+						</div>
+					</div>
+					<div class="form-checkout__apply">
+						<h3>
+							Apply Coupon to get discount!
+						</h3>
+						<div class="form-checkout__coupon coupon-code">
+							<input class="coupon-code__input" autocomplete="off" name="Couponcode" placeholder="Coupon code" type="text">
+							<button class="coupon-code__button" type="button">Apply Code</button>
+						</div>
+					</div>
+					<button class="form-checkout__send" type="submit">send</button>
+				</form>
+				<form class="saddress-form" action="#" method="post">
+					<div class="form-address">
+						<h4 class="form-address__title">
+							Shipping Address
+						</h4>
+						<div class="form-address__line">
+							<label class="form-address__label" for="email-01">Email Address <span>*</span></label>
+							<input class="form-address__input" id="email-01" autocomplete="off" placeholder="roni_cost@example.com" name="mail" type="email" required>
+						</div>
+						<div class="form-address__line">
+							<label class="form-address__label" for="password-01">Password</label>
+							<input class="form-address__input" id="password-01" autocomplete="off" placeholder="******************" name="pass" type="password">
+						</div>
+						<div class="form-address__line">
+							<label class="form-address__label" for="zip-01">Zip/Postal Code</label>
+							<input class="form-address__input" id="zip-01" autocomplete="off" name="zip" type="text">
+						</div>
+						<div class="form-address__sing">
+							<div class="form-address__text">
+								You already have an account with us. Sign in or continue as guest.
+							</div>
+							<button class="form-address__button form-address__button--black" type="button">login</button>
+							<div class="form-address__link">
+								<a href="#">Forgot Your Password?</a>
+							</div>
+						</div>
+					</div>
+					<div class="form-address address-contacts">
+						<div class="address-contacts__line">
+							<label class="address-contacts__label" for="fname-01">First Name</label>
+							<input class="address-contacts__input" id="fname-01" autocomplete="off" name="fname" type="text" required>
+						</div>
+						<div class="address-contacts__line">
+							<label class="address-contacts__label" for="lname-01">Last Name <span>*</span></label>
+							<input class="address-contacts__input" id="lname-01" autocomplete="off" name="lname" type="text" required>
+						</div>
+						<div class="address-contacts__line">
+							<label class="address-contacts__label" for="company-01">Company</label>
+							<input class="address-contacts__input" id="company-01" autocomplete="off" name="company" type="text">
+						</div>
+						<div class="address-contacts__line">
+							<label class="address-contacts__label" for="saddress-01">Street Address <span>*</span></label>
+							<div class="address-contacts__wrap">
+								<input class="address-contacts__input" id="saddress-01" autocomplete="off" name="saddress1" type="text" required>
+								<input class="address-contacts__input" id="saddress-02" autocomplete="off" name="saddress2" type="text" required>
+								<input class="address-contacts__input" id="saddress-03" autocomplete="off" name="saddress3" type="text" required>
+							</div>
+						</div>
+						<div class="address-contacts__line">
+							<label class="address-contacts__label" for="country-01">Country <span>*</span></label>
+							<input class="address-contacts__input" id="country-01" autocomplete="off" name="country" type="text" required>
+						</div>
+						<div class="address-contacts__line">
+							<label class="address-contacts__label" for="state-01">State/Province <span>*</span></label>
+							<input class="address-contacts__input" id="state-01" autocomplete="off" name="state" type="text" required>
+						</div>
+						<h4 class="form-address__title address-contacts__title">
+							Shipping Methods
+						</h4>
+						<div class="address-contacts contacts-radio">
+							<div class="contacts-radio__item">
+								<input class="contacts-radio__input" id="shipping-methods-01" required value="$5.00" name="shipping-methods" type="radio">
+								<label class="contacts-radio__label" for="shipping-methods-01">$5.00</label>
+								<div class="contacts-radio__text">Fixed</div>
+								<div class="contacts-radio__text">Flat Rate</div>
+							</div>
+							<div class="contacts-radio__item">
+								<input class="contacts-radio__input" id="shipping-methods-02" required value="$10.00" name="shipping-methods" type="radio" checked>
+								<label class="contacts-radio__label" for="shipping-methods-02">$10.00</label>
+								<div class="contacts-radio__text">Table Rate</div>
+								<div class="contacts-radio__text">Best Way</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-address form-address--button">
+						<button class="form-address__button form-address__button--black" type="button">next</button>
+						<button class="form-address__button form-address__button--white" type="button">back</button>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer></footer>
+	</div>
+
+</body>
+
+</html>
