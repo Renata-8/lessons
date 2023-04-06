@@ -141,7 +141,14 @@
 						</div>
 						<div class="address-contacts__line">
 							<label class="address-contacts__label" for="state-01">State/Province <span>*</span></label>
-							<input class="address-contacts__input" id="state-01" autocomplete="off" name="state" type="text" required>
+							<select class="address-contacts__input" id="state-01" autocomplete="off" name="state" required>
+								<option value="" disabled selected>Please select a region, state or province</option>
+								<option value="1">Uzhhorod</option>
+								<option value="2">Tiachiv</option>
+								<option value="3">Rakhiv</option>
+								<option value="4">Mukachevo</option>
+								<option value="5">Khust</option>
+							</select>
 						</div>
 						<h4 class="form-address__title address-contacts__title">
 							Shipping Methods
