@@ -186,6 +186,10 @@ margin-bottom: 10px;
 }
 
 @media(max-width:767.98px){
+	body{
+		font-size: 14px;
+	line-height: 1.2;
+	}
 	.header-room__title{
 		font-size: 46px;
 	}
