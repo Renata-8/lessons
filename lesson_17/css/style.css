@@ -309,8 +309,9 @@ border-bottom: 2px solid #637381;
 	color: #212B36;
 	margin-bottom: 4.342541254%;
 }
-.form-checkout__coupon {
-	margin-bottom: 30px;
+.form-checkout__coupon {/*
+	margin-bottom: 30px;*/
+	margin-bottom: 5.35049505%;
 }
 .coupon-code {
 }
@@ -400,8 +401,9 @@ border-bottom: 2px solid #637381;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #000;
-	padding: 22px 43px;
+	background-color: #000;/*
+	padding: 22px 43px;*/
+	padding: 3.63036304% 7.0950957%;
 	transition: all 0.3s;
 }
 .form-address__button--white{
@@ -568,11 +570,8 @@ flex-wrap: wrap;
 	.address-contacts__input {
 		flex: 0 1 100%;
 	}
-	.form-address__button{
-		padding: 11px 22px;
-	}
 	.coupon-code__input{
-		margin-bottom: 15px;
+		margin-right: 10px;
 	}
 }
 @media (max-width: 428.98px) {
@@ -582,5 +581,7 @@ flex-wrap: wrap;
 	.header-room__subtitle{
 		font-size: 14px;
 	}
-	
+	.coupon-code__input{
+		margin-right: 0px;
+		margin-bottom: 15px;
 }
