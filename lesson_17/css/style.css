@@ -119,9 +119,7 @@ padding-bottom: 87.8424658%;
 [class*='__picture'] img{
 	max-width: 100%;
 }
-.content-room__picture--hundred {
-	flex: 0 1 100%;
-}
+
 
 /*---------services------------*/
 .services__title {
@@ -156,7 +154,6 @@ padding-bottom: 87.8424658%;
 
 .card-service__picture img{
 	max-width: 100%;
-	/*padding: 0 15px; /*!не варто було зображенню вказувати padding а то hover не дуже гарно працює*/
 	transition: all 0.8s;
 }
 
@@ -170,8 +167,6 @@ padding-bottom: 87.8424658%;
 
 .card-service__desing {
 	flex: 0 1 27.83%;
-	/*flex-grow: 0 ;можливість елемента збільшуватись*/
-	/*flex-shrink: 1;можливість зменшуватись у розмірі*/
 	display: flex;
 	flex-direction: column;
 	row-gap: 20px;
@@ -187,27 +182,15 @@ margin-bottom: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-}/*
-.header {
-	padding: 25px 0;
 }
-.header__container {
-	margin-bottom: 25px;
-	
-}
-.header__title {
-	font-weight: 700;
-	font-size: 44px;
-	line-height: 1.25;
-	color: #212B36;
-	margin-bottom: 8px;
-	
-}
-.header__subtitle {
-	font-weight: 500;
-}*/
 /*****блок 1*****/
-
+[class*='checkout__']{
+	font-family: 'Inter',sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #637381;
+}
 .checkout__title {
 	font-weight: 700;
 	font-size: 24px;
@@ -235,13 +218,12 @@ border-bottom: 2px solid #637381;
 
 }
 .form-checkout__item input, select, textarea{
+	font-weight: 500;
+	font-size: 16px;
 	width: 100%;
 	border: 1px solid #E7E7E7;
 	border-radius: 7px;
-	padding: 15px 25px;/*
-	font-size: 50px;*/
-	font-weight: 500;
-	font-size: 16px;
+	padding: 15px 25px;	
 	color: #637381;
 }
 .input {
@@ -264,9 +246,7 @@ border-bottom: 2px solid #637381;
 }
 .form-checkout__line:not(:last-child) {
 	margin-bottom: 25px;
-
 }
-
 
 .form-checkout__input {
 	position: absolute;
@@ -342,9 +322,9 @@ border-bottom: 2px solid #637381;
 }
 .form-address {
 	font-family: 'Roboto' , sans-serif;
-
+	font-size: 16px;
 	line-height:1.25;
-	or: #3F3F3F;
+	color: #3F3F3F;
 }
 .form-address__title {
 	font-family: 'Oswald', sans-serif;
@@ -584,4 +564,5 @@ flex-wrap: wrap;
 	.coupon-code__input{
 		margin-right: 0px;
 		margin-bottom: 15px;
+}
 }
