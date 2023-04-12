@@ -463,7 +463,7 @@ text-decoration: underline;
 height: 10px;
 	border: 3px solid #000000;
 }
-.contacts-radio__input:hover+.contacts-radio__label:not(:checked)::before {
+.contacts-radio__input:hover:not(:checked)+.contacts-radio__label::before {
 	border: 1px solid #3F3F3F;
 }
 
