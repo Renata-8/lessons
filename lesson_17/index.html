@@ -181,7 +181,7 @@
 								<input autocomplete="on" name="postcode" placeholder="Postcode / ZIP*" type="text" maxlength="6" required>
 							</div>
 							<div class="form-checkout__item">
-								<input autocomplete="on" name="postcode" placeholder="Phone*" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+								<input autocomplete="on" name="postcode" placeholder="Phone*" type="tel" required>
 							</div>
 							<div class="form-checkout__item">
 								<input autocomplete="on" name="postcode2" placeholder="Postcode / ZIP*" type="text" maxlength="6" required>
@@ -214,7 +214,7 @@
 						</div>
 						<button class="form-checkout__send" type="submit">send</button>
 					</form>
-					<form class="saddress-form" action="#" method="post">
+					<form class="form-address" action="#" method="post">
 						<div class="form-address">
 							<h4 class="form-address__title">
 								Shipping Address
@@ -241,6 +241,8 @@
 								</div>
 							</div>
 						</div>
+					</form>
+					<form class="form-address" action="#" method="post">
 						<div class="form-address address-contacts">
 							<div class="address-contacts__line">
 								<label class="address-contacts__label" for="fname-01">First Name</label>
@@ -296,8 +298,8 @@
 							</div>
 						</div>
 						<div class="form-address form-address--button">
-							<button class="form-address__button form-address__button--black" type="button">next</button>
-							<button class="form-address__button form-address__button--white" type="button">back</button>
+							<button class="form-address__button form-address__button--black" type="submit">next</button>
+							<button class="form-address__button form-address__button--white" type="submit">back</button>
 						</div>
 					</form>
 				</div>
