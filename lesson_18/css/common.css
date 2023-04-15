@@ -1,3 +1,26 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* ------------------- */
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex; /*притискає підвал до низу*/
+	flex-direction: column; /*притискає підвал до низу*/
+}
+.wrapper>main{
+	flex-grow: 1; /*притискає підвал до низу*/
+}
+/*---------------------------*/
+[class*='__container']{
+	max-width: 1270px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
 /* Title */
 .title {
 	font-weight: 700;
@@ -5,10 +28,43 @@
 	line-height: 1.6;
 	color: #F8F9FA;
 }
-.topic-main__title-section {
+.title-section {
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 1.6;
 	color: #212529;
 }
-/* ------------------- */
+/*-----header and logo-------*/
+.header{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+	background-color: rgb(255, 255, 255);
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	min-height: 100px;
+	align-items: center;
+	padding: 5px 15px;
+}
+
+.header__logo {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.39;
+	color: #495057;
+	text-transform: uppercase;
+	display:inline-flex;
+	align-items: flex-end;
+}
+.header__logo::after{
+	content: '.';
+	color: #DDBEA9;
+}
+/*------------------*/
+
+
