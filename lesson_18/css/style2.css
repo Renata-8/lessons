@@ -146,10 +146,7 @@ color: rgba(73, 80, 87, 0.5);
 	line-height: 2.08;
 	color: #C4C4C4;
 }
-.desing-main__link.active,
-.desing-main__link:hover{
-	color: #495057;
-}
+
 /*------card----------*/
 .desing-main__portfolio{
 	display: flex;
@@ -183,9 +180,7 @@ color: rgba(73, 80, 87, 0.5);
 	border-radius: 3px;
 	transition: transform 0.4s;
 }
-.portfolio__picture:hover img{
-	transform: scale(1.1);
-}
+
 .portfolio__date {
 	font-weight: 300;
 	font-size: 12px;
@@ -201,10 +196,7 @@ color: rgba(73, 80, 87, 0.5);
 	color: #212529;
 	transition: color 0.3s;
 }
-.portfolio__text:hover{
-	color: #CCD5AE;
-	text-decoration: underline;
-}
+
 /*-------@media------*/
 @media (any-hover: hover) {
 	.social-header__item:hover .social-header__link,
@@ -215,6 +207,17 @@ color: rgba(73, 80, 87, 0.5);
 		width: 100%;
 		left: 0;
 	}
+	.portfolio__text:hover{
+		color: #CCD5AE;
+		text-decoration: underline;
+	}
+	.portfolio__picture:hover img{
+		transform: scale(1.1);
+	}
+	.desing-main__link.active,
+.desing-main__link:hover{
+	color: #495057;
+}
 }
 @media (max-width: 1250.98px) {
 	.desing-main__portfolio {

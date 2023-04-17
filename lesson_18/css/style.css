@@ -456,6 +456,9 @@ color: #CCD5AE;
 		visibility: visible;
 		pointer-events: auto;
 	}
+	.topic-main__search:hover{
+		color: #495057;
+	}
 }
 @media (max-width: 912.98px){
 	.topic-main__right-column{
