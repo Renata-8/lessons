@@ -170,6 +170,8 @@ color: rgba(73, 80, 87, 0.5);
 	position: relative;
 	padding-bottom: 60.513232%;
 	margin-bottom: 30px;
+	overflow: hidden;
+	
 }
 .portfolio__picture img{
 	position: absolute;
@@ -179,6 +181,10 @@ color: rgba(73, 80, 87, 0.5);
 	width: 100%;
 	object-fit: cover;
 	border-radius: 3px;
+	transition: transform 0.4s;
+}
+.portfolio__picture:hover img{
+	transform: scale(1.1);
 }
 .portfolio__date {
 	font-weight: 300;
@@ -193,7 +199,11 @@ color: rgba(73, 80, 87, 0.5);
 	font-size: 16px;
 	line-height: 1.56;
 	color: #212529;
-
+	transition: color 0.3s;
+}
+.portfolio__text:hover{
+	color: #CCD5AE;
+	text-decoration: underline;
 }
 /*-------@media------*/
 @media (any-hover: hover) {

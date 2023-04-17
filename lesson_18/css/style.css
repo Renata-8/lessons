@@ -235,7 +235,7 @@ color: #CCD5AE;
 	transform: rotate(-180deg);
 }
 .topic-main__search {
-	background: url(../img/page1/search.svg) left no-repeat;
+	background: url(/img/page1/icons/search.svg) left no-repeat;
 	padding-left: 20px;
 	color: rgba(73, 80, 87, 0.5);
 }
