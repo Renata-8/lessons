@@ -872,4 +872,11 @@ p[class*='--left']{
 .card-trending__item{
 	padding: 20px;
 	}
+	.shop-card__title{
+		font-size: 20px;
+	}
+	h2[class*='__title'] {
+		font-weight: 700;
+		font-size: 30px;
+	}
 }
