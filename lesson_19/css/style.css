@@ -553,10 +553,13 @@ p[class*='--left']{
 	display: flex;
 	flex-direction: column;
 	row-gap: 20px;
+	min-height: 100%;
+	
 }
 .card-top {
 }
 .card-top__link {
+	
 }
 /**img------------------*/
 .card-top__link{
@@ -578,7 +581,7 @@ p[class*='--left']{
 }
 /**-------------------img*/
 .card-top__block{
-
+	flex-grow: 1;
 }
 .card-top__title {
 	font-size: 20px;
@@ -596,7 +599,6 @@ p[class*='--left']{
 	border: 1px solid #212B36;
 	border-radius: 4px;
 	padding: 8px 20px;
-
 }
 /*---------------Top Collections*/
 /*-------room--------*/
