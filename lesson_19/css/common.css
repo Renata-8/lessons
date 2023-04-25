@@ -1,0 +1,28 @@
+.top {
+	padding-top: 10%; /* 120/1200 */
+	padding-bottom:5.833333%; /* 70/1200 */
+}
+
+
+h2[class*='__title'] {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.12;
+	text-align: center;
+	text-transform: capitalize;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+
+p[class*='__subtitle'] {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	color: #637381;
+max-width: 490px;
+margin: 0 auto;
+}
+
+
+/*-------*/
