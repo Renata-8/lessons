@@ -412,13 +412,13 @@ padding: 0 25px;
 }
 
 .products-featured__button--buy {
-	background:#fff url(/img/page1/icons/buy.svg) center no-repeat;
+	background:#fff url(img/page1/icons/buy.svg) center no-repeat;
 }
 .products-featured__button--look {
-	background:#fff url(/img/page1/icons/look.svg) center no-repeat;
+	background:#fff url(img/page1/icons/look.svg) center no-repeat;
 }
 .products-featured__button--like {
-	background:#fff url(/img/page1/icons/like.svg) center no-repeat;
+	background:#fff url(img/page1/icons/like.svg) center no-repeat;
 }
 /**-----------------------*/
 .card-featured__box{
