@@ -281,6 +281,7 @@ body {
   text-align: center;
   max-width: 370px;
   padding: 0 93px;
+  margin: 0 auto;
 }
 @media (max-width: 425.98px) {
   .brand-menu__title {
