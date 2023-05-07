@@ -1,8 +1,6 @@
 
 @use "sass:math";
 @import "_reset.scss";
-//@import "_base.scss";
-@import "_mixins.scss";
 @import "_common.scss";
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet');
@@ -560,6 +558,7 @@ z-index: 2;
 		padding: 24px;
 		min-height: 420px;
 		border: 2px solid #fff;
+		transition: all 0.3s;
 		@media (any-hover: hover){
 		&:hover{
 			border: 2px solid #828282;
@@ -599,16 +598,3 @@ flex-grow: 1;
 	border-top: 3px solid #000000;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

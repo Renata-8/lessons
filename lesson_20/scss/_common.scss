@@ -137,10 +137,15 @@ max-width: rem(639);
 		display: block;
 		font-weight: 500;
 	font-size: 22px;
-	line-height: 1.5;
 	text-transform: uppercase;
+	transition: transform 0.3s;
 	@media (max-width: 1006.98px) {
 		font-size: 15px;
+	}
+	@media (any-hover: hover){
+	&:hover{
+		transform: scale(1.1);
+	}
 	}
 
 	
