@@ -1,0 +1,64 @@
+.footer {
+background-color: #212529;
+font-weight: 500;
+line-height: 2.08;
+
+		&__top {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: rem(15);
+			border-bottom: 1px solid rgba(229, 229, 229, 0.2);
+			padding: rem(40) 0;
+			@media (max-width: em(440)) {
+				flex-flow: wrap;
+				justify-content: center;
+				gap: rem(10);
+				padding: rem(20) 0;
+			}
+		}
+
+		&__logo {
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 1.39;
+			color: #F8F9FA;
+
+		&__menu {
+		}
+
+		&__info {
+		}
+}
+.menu-footer {
+
+		&__list {
+			display: flex;
+			gap: rem(25);
+		}
+
+		&__item {
+		}
+
+		&__link {
+		}
+}
+.info-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: rem(15);
+	padding: rem(40) 0;
+	@media (max-width: em(440)) {
+		flex-flow: wrap;
+		justify-content: center;
+		gap: rem(10);
+		padding: rem(20) 0;
+	}
+		&__adress {
+		}
+
+		&__rights {
+		}
+}
+}

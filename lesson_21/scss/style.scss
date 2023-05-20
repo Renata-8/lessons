@@ -1,0 +1,41 @@
+@use "sass:math";
+@import "_reset.scss";
+//@import "_base.scss";
+@import "_mixins.scss";
+@import "_common.scss";
+@import "_header.scss";
+@import "_main_header.scss";
+@import "_articles.scss";
+@import "_topic.scss";
+@import "_big_world.scss";
+@import "_footer.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+
+//-------------------
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: rem(12);
+	line-height: 1.67;
+	color:  #495057;
+}
+
+.wrapper {
+	//overflow: clip;
+	min-height: 100%;
+	display: flex; //притискає підвал до низу
+	flex-direction: column; //притискає підвал до низу
+}
+.wrapper>main{
+	flex-grow: 1; //притискає підвал до низу
+}
+//---------------------------
+[class*='__container']{
+	max-width:rem(1270);
+	padding-left: rem(15);
+	padding-right: rem(15);
+	margin: 0 auto;
+}
+
+
